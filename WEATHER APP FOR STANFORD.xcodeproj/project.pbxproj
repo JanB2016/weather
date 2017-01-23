@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6995C9561E36944B005E75A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C9551E36944B005E75A2 /* AppDelegate.swift */; };
+		6995C9581E36944B005E75A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C9571E36944B005E75A2 /* ViewController.swift */; };
+		6995C95B1E36944B005E75A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6995C9591E36944B005E75A2 /* Main.storyboard */; };
+		6995C95E1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6995C95C1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodeld */; };
+		6995C9601E36944C005E75A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6995C95F1E36944C005E75A2 /* Assets.xcassets */; };
+		6995C9631E36944C005E75A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6995C9611E36944C005E75A2 /* LaunchScreen.storyboard */; };
+		6995C96E1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C96D1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift */; };
+		6995C9791E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C9781E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6995C96A1E36944C005E75A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6995C94A1E36944B005E75A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6995C9511E36944B005E75A2;
+			remoteInfo = "WEATHER APP FOR STANFORD";
+		};
+		6995C9751E36944C005E75A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6995C94A1E36944B005E75A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6995C9511E36944B005E75A2;
+			remoteInfo = "WEATHER APP FOR STANFORD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6995C9521E36944B005E75A2 /* WEATHER APP FOR STANFORD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WEATHER APP FOR STANFORD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995C9551E36944B005E75A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6995C9571E36944B005E75A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6995C95A1E36944B005E75A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6995C95D1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WEATHER_APP_FOR_STANFORD.xcdatamodel; sourceTree = "<group>"; };
+		6995C95F1E36944C005E75A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6995C9621E36944C005E75A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6995C9641E36944C005E75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6995C9691E36944C005E75A2 /* WEATHER APP FOR STANFORDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WEATHER APP FOR STANFORDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995C96D1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATHER_APP_FOR_STANFORDTests.swift; sourceTree = "<group>"; };
+		6995C96F1E36944C005E75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6995C9741E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WEATHER APP FOR STANFORDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6995C9781E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATHER_APP_FOR_STANFORDUITests.swift; sourceTree = "<group>"; };
+		6995C97A1E36944C005E75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6995C94F1E36944B005E75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995C9661E36944C005E75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995C9711E36944C005E75A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6995C9491E36944B005E75A2 = {
+			isa = PBXGroup;
+			children = (
+				6995C9541E36944B005E75A2 /* WEATHER APP FOR STANFORD */,
+				6995C96C1E36944C005E75A2 /* WEATHER APP FOR STANFORDTests */,
+				6995C9771E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests */,
+				6995C9531E36944B005E75A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6995C9531E36944B005E75A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6995C9521E36944B005E75A2 /* WEATHER APP FOR STANFORD.app */,
+				6995C9691E36944C005E75A2 /* WEATHER APP FOR STANFORDTests.xctest */,
+				6995C9741E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6995C9541E36944B005E75A2 /* WEATHER APP FOR STANFORD */ = {
+			isa = PBXGroup;
+			children = (
+				6995C9551E36944B005E75A2 /* AppDelegate.swift */,
+				6995C9571E36944B005E75A2 /* ViewController.swift */,
+				6995C9591E36944B005E75A2 /* Main.storyboard */,
+				6995C95F1E36944C005E75A2 /* Assets.xcassets */,
+				6995C9611E36944C005E75A2 /* LaunchScreen.storyboard */,
+				6995C9641E36944C005E75A2 /* Info.plist */,
+				6995C95C1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodeld */,
+			);
+			path = "WEATHER APP FOR STANFORD";
+			sourceTree = "<group>";
+		};
+		6995C96C1E36944C005E75A2 /* WEATHER APP FOR STANFORDTests */ = {
+			isa = PBXGroup;
+			children = (
+				6995C96D1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift */,
+				6995C96F1E36944C005E75A2 /* Info.plist */,
+			);
+			path = "WEATHER APP FOR STANFORDTests";
+			sourceTree = "<group>";
+		};
+		6995C9771E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6995C9781E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift */,
+				6995C97A1E36944C005E75A2 /* Info.plist */,
+			);
+			path = "WEATHER APP FOR STANFORDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6995C9511E36944B005E75A2 /* WEATHER APP FOR STANFORD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995C97D1E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORD" */;
+			buildPhases = (
+				6995C94E1E36944B005E75A2 /* Sources */,
+				6995C94F1E36944B005E75A2 /* Frameworks */,
+				6995C9501E36944B005E75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WEATHER APP FOR STANFORD";
+			productName = "WEATHER APP FOR STANFORD";
+			productReference = 6995C9521E36944B005E75A2 /* WEATHER APP FOR STANFORD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6995C9681E36944C005E75A2 /* WEATHER APP FOR STANFORDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995C9801E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORDTests" */;
+			buildPhases = (
+				6995C9651E36944C005E75A2 /* Sources */,
+				6995C9661E36944C005E75A2 /* Frameworks */,
+				6995C9671E36944C005E75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6995C96B1E36944C005E75A2 /* PBXTargetDependency */,
+			);
+			name = "WEATHER APP FOR STANFORDTests";
+			productName = "WEATHER APP FOR STANFORDTests";
+			productReference = 6995C9691E36944C005E75A2 /* WEATHER APP FOR STANFORDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6995C9731E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6995C9831E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORDUITests" */;
+			buildPhases = (
+				6995C9701E36944C005E75A2 /* Sources */,
+				6995C9711E36944C005E75A2 /* Frameworks */,
+				6995C9721E36944C005E75A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6995C9761E36944C005E75A2 /* PBXTargetDependency */,
+			);
+			name = "WEATHER APP FOR STANFORDUITests";
+			productName = "WEATHER APP FOR STANFORDUITests";
+			productReference = 6995C9741E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6995C94A1E36944B005E75A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jan Bandachowicz";
+				TargetAttributes = {
+					6995C9511E36944B005E75A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6P2QY9UM7Y;
+					};
+					6995C9681E36944C005E75A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6P2QY9UM7Y;
+						TestTargetID = 6995C9511E36944B005E75A2;
+					};
+					6995C9731E36944C005E75A2 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6P2QY9UM7Y;
+						TestTargetID = 6995C9511E36944B005E75A2;
+					};
+				};
+			};
+			buildConfigurationList = 6995C94D1E36944B005E75A2 /* Build configuration list for PBXProject "WEATHER APP FOR STANFORD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6995C9491E36944B005E75A2;
+			productRefGroup = 6995C9531E36944B005E75A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6995C9511E36944B005E75A2 /* WEATHER APP FOR STANFORD */,
+				6995C9681E36944C005E75A2 /* WEATHER APP FOR STANFORDTests */,
+				6995C9731E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6995C9501E36944B005E75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995C9631E36944C005E75A2 /* LaunchScreen.storyboard in Resources */,
+				6995C9601E36944C005E75A2 /* Assets.xcassets in Resources */,
+				6995C95B1E36944B005E75A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995C9671E36944C005E75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995C9721E36944C005E75A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6995C94E1E36944B005E75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995C9581E36944B005E75A2 /* ViewController.swift in Sources */,
+				6995C9561E36944B005E75A2 /* AppDelegate.swift in Sources */,
+				6995C95E1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995C9651E36944C005E75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995C96E1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6995C9701E36944C005E75A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6995C9791E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6995C96B1E36944C005E75A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6995C9511E36944B005E75A2 /* WEATHER APP FOR STANFORD */;
+			targetProxy = 6995C96A1E36944C005E75A2 /* PBXContainerItemProxy */;
+		};
+		6995C9761E36944C005E75A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6995C9511E36944B005E75A2 /* WEATHER APP FOR STANFORD */;
+			targetProxy = 6995C9751E36944C005E75A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6995C9591E36944B005E75A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6995C95A1E36944B005E75A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6995C9611E36944C005E75A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6995C9621E36944C005E75A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6995C97B1E36944C005E75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6995C97C1E36944C005E75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6995C97E1E36944C005E75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WEATHER APP FOR STANFORD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6995C97F1E36944C005E75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WEATHER APP FOR STANFORD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6995C9811E36944C005E75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WEATHER APP FOR STANFORDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEATHER APP FOR STANFORD.app/WEATHER APP FOR STANFORD";
+			};
+			name = Debug;
+		};
+		6995C9821E36944C005E75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WEATHER APP FOR STANFORDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WEATHER APP FOR STANFORD.app/WEATHER APP FOR STANFORD";
+			};
+			name = Release;
+		};
+		6995C9841E36944C005E75A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WEATHER APP FOR STANFORDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WEATHER APP FOR STANFORD";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6995C9851E36944C005E75A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WEATHER APP FOR STANFORDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WEATHER APP FOR STANFORD";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6995C94D1E36944B005E75A2 /* Build configuration list for PBXProject "WEATHER APP FOR STANFORD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995C97B1E36944C005E75A2 /* Debug */,
+				6995C97C1E36944C005E75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6995C97D1E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995C97E1E36944C005E75A2 /* Debug */,
+				6995C97F1E36944C005E75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6995C9801E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995C9811E36944C005E75A2 /* Debug */,
+				6995C9821E36944C005E75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6995C9831E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6995C9841E36944C005E75A2 /* Debug */,
+				6995C9851E36944C005E75A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6995C95C1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6995C95D1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodel */,
+			);
+			currentVersion = 6995C95D1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodel */;
+			path = WEATHER_APP_FOR_STANFORD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6995C94A1E36944B005E75A2 /* Project object */;
+}
