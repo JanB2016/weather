@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		697C1ABF1E369A6900E75128 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C1ABE1E369A6900E75128 /* WeatherService.swift */; };
+		697C1AC11E36A7A300E75128 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C1AC01E36A7A300E75128 /* Weather.swift */; };
+		697C1AC31E36AED100E75128 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697C1AC21E36AED100E75128 /* SwiftyJSON.swift */; };
 		6995C9561E36944B005E75A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C9551E36944B005E75A2 /* AppDelegate.swift */; };
 		6995C9581E36944B005E75A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C9571E36944B005E75A2 /* ViewController.swift */; };
 		6995C95B1E36944B005E75A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6995C9591E36944B005E75A2 /* Main.storyboard */; };
@@ -15,6 +18,24 @@
 		6995C9631E36944C005E75A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6995C9611E36944C005E75A2 /* LaunchScreen.storyboard */; };
 		6995C96E1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C96D1E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDTests.swift */; };
 		6995C9791E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C9781E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift */; };
+		69D646A81E37F35600E8893E /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646961E37F35600E8893E /* 01d.png */; };
+		69D646A91E37F35600E8893E /* 01n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646971E37F35600E8893E /* 01n.png */; };
+		69D646AA1E37F35600E8893E /* 02d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646981E37F35600E8893E /* 02d.png */; };
+		69D646AB1E37F35600E8893E /* 02n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646991E37F35600E8893E /* 02n.png */; };
+		69D646AC1E37F35600E8893E /* 03d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D6469A1E37F35600E8893E /* 03d.png */; };
+		69D646AD1E37F35600E8893E /* 03n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D6469B1E37F35600E8893E /* 03n.png */; };
+		69D646AE1E37F35600E8893E /* 04d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D6469C1E37F35600E8893E /* 04d.png */; };
+		69D646AF1E37F35600E8893E /* 04n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D6469D1E37F35600E8893E /* 04n.png */; };
+		69D646B01E37F35600E8893E /* 09d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D6469E1E37F35600E8893E /* 09d.png */; };
+		69D646B11E37F35600E8893E /* 09n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D6469F1E37F35600E8893E /* 09n.png */; };
+		69D646B21E37F35600E8893E /* 10d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A01E37F35600E8893E /* 10d.png */; };
+		69D646B31E37F35600E8893E /* 10n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A11E37F35600E8893E /* 10n.png */; };
+		69D646B41E37F35600E8893E /* 11d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A21E37F35600E8893E /* 11d.png */; };
+		69D646B51E37F35600E8893E /* 11n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A31E37F35600E8893E /* 11n.png */; };
+		69D646B61E37F35600E8893E /* 13d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A41E37F35600E8893E /* 13d.png */; };
+		69D646B71E37F35600E8893E /* 13n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A51E37F35600E8893E /* 13n.png */; };
+		69D646B81E37F35600E8893E /* 50d.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A61E37F35600E8893E /* 50d.png */; };
+		69D646B91E37F35600E8893E /* 50n.png in Resources */ = {isa = PBXBuildFile; fileRef = 69D646A71E37F35600E8893E /* 50n.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		697C1ABE1E369A6900E75128 /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		697C1AC01E36A7A300E75128 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		697C1AC21E36AED100E75128 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		6995C9521E36944B005E75A2 /* WEATHER APP FOR STANFORD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WEATHER APP FOR STANFORD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6995C9551E36944B005E75A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6995C9571E36944B005E75A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,24 @@
 		6995C9741E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WEATHER APP FOR STANFORDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6995C9781E36944C005E75A2 /* WEATHER_APP_FOR_STANFORDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WEATHER_APP_FOR_STANFORDUITests.swift; sourceTree = "<group>"; };
 		6995C97A1E36944C005E75A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D646961E37F35600E8893E /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01d.png; path = "../../../Rosey/Weather-App-Example-master-2/01d.png"; sourceTree = "<group>"; };
+		69D646971E37F35600E8893E /* 01n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01n.png; path = "../../../Rosey/Weather-App-Example-master-2/01n.png"; sourceTree = "<group>"; };
+		69D646981E37F35600E8893E /* 02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02d.png; path = "../../../Rosey/Weather-App-Example-master-2/02d.png"; sourceTree = "<group>"; };
+		69D646991E37F35600E8893E /* 02n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02n.png; path = "../../../Rosey/Weather-App-Example-master-2/02n.png"; sourceTree = "<group>"; };
+		69D6469A1E37F35600E8893E /* 03d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03d.png; path = "../../../Rosey/Weather-App-Example-master-2/03d.png"; sourceTree = "<group>"; };
+		69D6469B1E37F35600E8893E /* 03n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03n.png; path = "../../../Rosey/Weather-App-Example-master-2/03n.png"; sourceTree = "<group>"; };
+		69D6469C1E37F35600E8893E /* 04d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04d.png; path = "../../../Rosey/Weather-App-Example-master-2/04d.png"; sourceTree = "<group>"; };
+		69D6469D1E37F35600E8893E /* 04n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04n.png; path = "../../../Rosey/Weather-App-Example-master-2/04n.png"; sourceTree = "<group>"; };
+		69D6469E1E37F35600E8893E /* 09d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09d.png; path = "../../../Rosey/Weather-App-Example-master-2/09d.png"; sourceTree = "<group>"; };
+		69D6469F1E37F35600E8893E /* 09n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 09n.png; path = "../../../Rosey/Weather-App-Example-master-2/09n.png"; sourceTree = "<group>"; };
+		69D646A01E37F35600E8893E /* 10d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10d.png; path = "../../../Rosey/Weather-App-Example-master-2/10d.png"; sourceTree = "<group>"; };
+		69D646A11E37F35600E8893E /* 10n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10n.png; path = "../../../Rosey/Weather-App-Example-master-2/10n.png"; sourceTree = "<group>"; };
+		69D646A21E37F35600E8893E /* 11d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11d.png; path = "../../../Rosey/Weather-App-Example-master-2/11d.png"; sourceTree = "<group>"; };
+		69D646A31E37F35600E8893E /* 11n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11n.png; path = "../../../Rosey/Weather-App-Example-master-2/11n.png"; sourceTree = "<group>"; };
+		69D646A41E37F35600E8893E /* 13d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13d.png; path = "../../../Rosey/Weather-App-Example-master-2/13d.png"; sourceTree = "<group>"; };
+		69D646A51E37F35600E8893E /* 13n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13n.png; path = "../../../Rosey/Weather-App-Example-master-2/13n.png"; sourceTree = "<group>"; };
+		69D646A61E37F35600E8893E /* 50d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 50d.png; path = "../../../Rosey/Weather-App-Example-master-2/50d.png"; sourceTree = "<group>"; };
+		69D646A71E37F35600E8893E /* 50n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 50n.png; path = "../../../Rosey/Weather-App-Example-master-2/50n.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +118,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		697C1AC41E36B49C00E75128 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				69D646961E37F35600E8893E /* 01d.png */,
+				69D646971E37F35600E8893E /* 01n.png */,
+				69D646981E37F35600E8893E /* 02d.png */,
+				69D646991E37F35600E8893E /* 02n.png */,
+				69D6469A1E37F35600E8893E /* 03d.png */,
+				69D6469B1E37F35600E8893E /* 03n.png */,
+				69D6469C1E37F35600E8893E /* 04d.png */,
+				69D6469D1E37F35600E8893E /* 04n.png */,
+				69D6469E1E37F35600E8893E /* 09d.png */,
+				69D6469F1E37F35600E8893E /* 09n.png */,
+				69D646A01E37F35600E8893E /* 10d.png */,
+				69D646A11E37F35600E8893E /* 10n.png */,
+				69D646A21E37F35600E8893E /* 11d.png */,
+				69D646A31E37F35600E8893E /* 11n.png */,
+				69D646A41E37F35600E8893E /* 13d.png */,
+				69D646A51E37F35600E8893E /* 13n.png */,
+				69D646A61E37F35600E8893E /* 50d.png */,
+				69D646A71E37F35600E8893E /* 50n.png */,
+			);
+			name = Images;
+			path = "WEATHER APP FOR STANFORD";
+			sourceTree = "<group>";
+		};
 		6995C9491E36944B005E75A2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +151,7 @@
 				6995C96C1E36944C005E75A2 /* WEATHER APP FOR STANFORDTests */,
 				6995C9771E36944C005E75A2 /* WEATHER APP FOR STANFORDUITests */,
 				6995C9531E36944B005E75A2 /* Products */,
+				697C1AC41E36B49C00E75128 /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +170,10 @@
 			children = (
 				6995C9551E36944B005E75A2 /* AppDelegate.swift */,
 				6995C9571E36944B005E75A2 /* ViewController.swift */,
+				697C1ABE1E369A6900E75128 /* WeatherService.swift */,
+				697C1AC01E36A7A300E75128 /* Weather.swift */,
 				6995C9591E36944B005E75A2 /* Main.storyboard */,
+				697C1AC21E36AED100E75128 /* SwiftyJSON.swift */,
 				6995C95F1E36944C005E75A2 /* Assets.xcassets */,
 				6995C9611E36944C005E75A2 /* LaunchScreen.storyboard */,
 				6995C9641E36944C005E75A2 /* Info.plist */,
@@ -235,9 +307,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D646B71E37F35600E8893E /* 13n.png in Resources */,
+				69D646B41E37F35600E8893E /* 11d.png in Resources */,
+				69D646AE1E37F35600E8893E /* 04d.png in Resources */,
+				69D646B81E37F35600E8893E /* 50d.png in Resources */,
+				69D646AA1E37F35600E8893E /* 02d.png in Resources */,
+				69D646AC1E37F35600E8893E /* 03d.png in Resources */,
+				69D646B91E37F35600E8893E /* 50n.png in Resources */,
+				69D646B01E37F35600E8893E /* 09d.png in Resources */,
 				6995C9631E36944C005E75A2 /* LaunchScreen.storyboard in Resources */,
+				69D646AD1E37F35600E8893E /* 03n.png in Resources */,
+				69D646AB1E37F35600E8893E /* 02n.png in Resources */,
+				69D646B51E37F35600E8893E /* 11n.png in Resources */,
+				69D646A91E37F35600E8893E /* 01n.png in Resources */,
+				69D646B11E37F35600E8893E /* 09n.png in Resources */,
+				69D646B31E37F35600E8893E /* 10n.png in Resources */,
+				69D646B61E37F35600E8893E /* 13d.png in Resources */,
 				6995C9601E36944C005E75A2 /* Assets.xcassets in Resources */,
 				6995C95B1E36944B005E75A2 /* Main.storyboard in Resources */,
+				69D646B21E37F35600E8893E /* 10d.png in Resources */,
+				69D646A81E37F35600E8893E /* 01d.png in Resources */,
+				69D646AF1E37F35600E8893E /* 04n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +352,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697C1ABF1E369A6900E75128 /* WeatherService.swift in Sources */,
 				6995C9581E36944B005E75A2 /* ViewController.swift in Sources */,
 				6995C9561E36944B005E75A2 /* AppDelegate.swift in Sources */,
+				697C1AC31E36AED100E75128 /* SwiftyJSON.swift in Sources */,
 				6995C95E1E36944B005E75A2 /* WEATHER_APP_FOR_STANFORD.xcdatamodeld in Sources */,
+				697C1AC11E36A7A300E75128 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,10 +497,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "WEATHER APP FOR STANFORD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"STRIP_INSTALLED_PRODUCT[sdk=*]" = YES;
 			};
 			name = Debug;
 		};
@@ -415,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = "WEATHER APP FOR STANFORD/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.janbandachowicz.WEATHER-APP-FOR-STANFORD";
@@ -489,6 +585,7 @@
 				6995C97F1E36944C005E75A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6995C9801E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORDTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +594,7 @@
 				6995C9821E36944C005E75A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6995C9831E36944C005E75A2 /* Build configuration list for PBXNativeTarget "WEATHER APP FOR STANFORDUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +603,7 @@
 				6995C9851E36944C005E75A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
